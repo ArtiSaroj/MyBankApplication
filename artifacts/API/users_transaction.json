@@ -1,0 +1,365 @@
+{
+	"id": "d73950a3-f802-4d00-b930-aa1c6ea6658f",
+	"createdAt": "2024-08-27T09:08:11.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "0b6dcdd2-a7ac-45d4-834b-949459cf6897",
+			"path": "/users_transaction",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "users_transaction"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "b9235b74-cb56-49bb-803b-ea49974b0c31",
+			"path": "/users_transaction",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "users_transaction"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "users_transaction"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "e5cd285b-507b-4aa5-9c98-0e9fdf6fc7b7",
+			"path": "/users_transaction",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "users_transaction"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "users_transaction"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "5391c4b0-96fd-4e7a-9773-290391c063a7",
+			"path": "/users_transaction",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "users_transaction"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "48a1de1b-6669-42cd-b7d1-4f215447dac0",
+			"path": "/users_transaction/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "e262a094-6f80-45ae-8a0c-1ddb61c7b439",
+			"name": "users_transaction",
+			"properties": [
+				{
+					"id": "5c65fe5b-1d0d-48a8-8d2a-5f5f06e6fd86",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "a2c073e9-914d-431c-b344-826823c0f3cb",
+					"parent": "",
+					"name": "email_id",
+					"description": "Email ID of the user",
+					"objectType": "string"
+				},
+				{
+					"id": "9300f758-971f-4ba2-b709-c57c7ee3a6d6",
+					"parent": "",
+					"name": "act_no",
+					"description": "account number",
+					"objectType": "string"
+				},
+				{
+					"id": "244f7239-010c-4931-8593-ea187f57b065",
+					"parent": "",
+					"name": "act_name",
+					"description": "account name",
+					"objectType": "string"
+				},
+				{
+					"id": "1f174519-311c-432e-aa98-d1edd86b183a",
+					"parent": "",
+					"name": "amount",
+					"description": "amount",
+					"objectType": "number"
+				},
+				{
+					"id": "48241218-eb48-4a50-bfa7-9215e8d155c3",
+					"parent": "",
+					"name": "transaction_date",
+					"description": "transaction date",
+					"objectType": "string"
+				},
+				{
+					"id": "9854371b-2d28-4199-8a9e-1e83a639a7dd",
+					"parent": "",
+					"name": "crdr",
+					"description": "credited or debited",
+					"objectType": "string"
+				},
+				{
+					"id": "1d1ee1c8-4a7e-4b5c-998c-07c19d3c3188",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "6abc9efa-e3b7-4afa-b0db-7b18c62594be",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "885f3f9c-649f-4a1a-b277-a9dffe5c9c3c",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "72b9fb9c-1390-41f1-9307-ce658b9e2c24",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "33d9d1a9-f353-437f-8a89-a5edd4557ce4",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "57937586-4019-4687-b533-8c67846158b0",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "57e545b5-2fb5-4ad0-a32b-969c4a3ba7f0",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "b8265348-0597-4b25-b219-6d5eb26af2e2",
+			"name": "count",
+			"properties": [
+				{
+					"id": "2478e6a4-bad5-4380-9ed7-c0f2d86b529d",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "users_transaction",
+	"endpoint": "/api/entity",
+	"ver": "24.08.27.1438",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "b70dc11a-0134-4312-9031-4b24acdaf4d2",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

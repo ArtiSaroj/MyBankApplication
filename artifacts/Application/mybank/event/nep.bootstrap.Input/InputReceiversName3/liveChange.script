@@ -1,0 +1,52 @@
+var regex = /^[a-zA-Z ]*$/;
+var receiversName2 = InputReceiversName3.getValue();
+
+if (regex.test(receiversName2) != true ) {
+    InputReceiversName3.setValidity("Invalid");
+    receiversName = "Invalid";
+    // InputReceiversName3.setError("Value must be at least 5 characters long");
+}
+else if (receiversName2 == ""||null||undefined ){
+    receiversName = "Invalid";
+}
+ else {
+    InputReceiversName3.setValidity("None");
+    receiversName = "Valid";
+}
+console.log("receiversName", receiversName);
+if (
+    receiversName == "Valid" &&
+    receiversBankName == "Valid" &&
+    receiversAccountNo == "Valid" &&
+    reReceiversAccountNo == "Valid" &&
+    IFSCCode == "Valid" &&
+    transferAmount == "Valid"
+) {
+    console.log(
+        receiversName,
+        receiversBankName,
+        receiversAccountNo,
+        reReceiversAccountNo,
+        IFSCCode,
+        transferAmount
+    );
+    console.log("all valid");
+    ButtonMakeTransfer.setEnabled(true);
+    ButtonMakeTransfer.addStyleClass("buttonContinue");
+} else {
+    console.log("all In valid");
+    ButtonMakeTransfer.setEnabled(false);
+    ButtonMakeTransfer.removeStyleClass("buttonContinue");
+}
+
+// console.log("receiversName == Valid",(receiversName == "Valid") && (receiversBankName == "Valid"));
+
+// if((receiversName == "Valid") && (receiversBankName == "Valid")){
+//     console.log(receiversName,receiversBankName);
+//     console.log("all valid");
+//     ButtonMakeTransfer.setEnabled(true);
+//     ButtonMakeTransfer.addStyleClass("buttonContinue");
+// }
+// else{
+//      console.log("all In valid");
+// }

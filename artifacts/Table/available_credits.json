@@ -1,0 +1,59 @@
+{
+	"id": "6a2a5bd5-9a68-4171-8363-16eb1f04c065",
+	"createdAt": "2024-09-03T18:50:03.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "43bfbe0a-4663-41f5-a80c-71b1efba8841",
+			"fieldName": "card_name",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Credit card name"
+		},
+		{
+			"id": "b16f3c52-9157-4891-99f9-00d9bfaba61b",
+			"fieldName": "card_image",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Credit card image"
+		},
+		{
+			"id": "d3afc7ae-6be9-4525-ef79-49bf2b7fe875",
+			"fieldName": "card_limit",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Credit card limit"
+		},
+		{
+			"id": "079419e6-ec5a-4568-9d65-7b22c285e188",
+			"fieldName": "benefit1",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "68bd183a-476d-42eb-860c-9520a02491a7",
+			"fieldName": "benefit2",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3b333232-e24b-4244-9cc7-76db6458fdea",
+			"fieldName": "benefit3",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "available_credits",
+	"description": null,
+	"ver": "24.09.04.0020",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "b70dc11a-0134-4312-9031-4b24acdaf4d2",
+	"rolesRead": [],
+	"rolesWrite": []
+}

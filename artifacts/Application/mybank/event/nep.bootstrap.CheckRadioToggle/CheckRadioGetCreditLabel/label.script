@@ -1,0 +1,3 @@
+if (typeof card_name === "undefined" || card_name === null || card_name === "") { return; }  
+var formattedText = card_name; 
+return formattedText;

@@ -1,0 +1,31 @@
+{
+	"id": "0437db96-f9e0-441b-935f-4b07bbd912d0",
+	"createdAt": "2024-08-20T12:24:30.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "1ee2749f-12a7-4ebc-deca-aae17f9bfabc",
+			"fieldName": "Title",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "177624ba-46fa-4f17-b196-a01435baa30f",
+			"fieldName": "Description",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "mybank_searchresultfordashboard",
+	"description": null,
+	"ver": "24.09.02.0012",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "b70dc11a-0134-4312-9031-4b24acdaf4d2",
+	"rolesRead": [],
+	"rolesWrite": []
+}

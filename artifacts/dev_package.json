@@ -1,0 +1,114 @@
+{
+	"id": "b70dc11a-0134-4312-9031-4b24acdaf4d2",
+	"createdAt": "2024-08-20T12:23:05.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/ArtiSaroj/MyBankApplication.git"
+	},
+	"name": "mybank",
+	"description": null,
+	"ver": "24.09.06.1257",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "28c317fe-b907-415e-fa57-3b2d90dbc417",
+			"application": "mybank",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "b70dc11a-0134-4312-9031-4b24acdaf4d2"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "ed76c4da-ee7f-498f-8445-876882df0939",
+			"name": "myusers",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "e2a341a7-19c5-43ae-9674-4c7c3963e248",
+			"name": "users_credit",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "d73950a3-f802-4d00-b930-aa1c6ea6658f",
+			"name": "users_transaction",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "b38806f2-476d-488a-ae99-62394a2e2b66",
+			"name": "available_credits",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "7cf792fb-6f34-44d3-ad81-d4ea7e127615",
+			"name": "MyBank_SearchResultForDashboard",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "72d0a495-ed46-4a0a-820e-183ebd92c343",
+			"name": "mybank_beneficiariesdetails",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "dcabd36f-c2de-4173-bf58-ba394c47bf0a",
+			"name": "mybank_beneficiariesdetails",
+			"description": null
+		},
+		{
+			"id": "a7d4ded8-62ca-4fbf-8046-478ea20a0f05",
+			"name": "users_transaction",
+			"description": null
+		},
+		{
+			"id": "6a2a5bd5-9a68-4171-8363-16eb1f04c065",
+			"name": "available_credits",
+			"description": null
+		},
+		{
+			"id": "2efa661a-8cb5-4dfe-b420-1416e8493322",
+			"name": "users_credit",
+			"description": null
+		},
+		{
+			"id": "0437db96-f9e0-441b-935f-4b07bbd912d0",
+			"name": "mybank_searchresultfordashboard",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

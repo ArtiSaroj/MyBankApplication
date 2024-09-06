@@ -1,0 +1,416 @@
+.NavBar {
+    background-color: #049cc3;
+}
+
+.flexBoxMain {
+    display: block !important;
+    background-color: #049cc3;
+}
+
+.NavBar .navbar-brand {
+    font-size: 28px !important;
+}
+
+.FlexBox1 {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.FlexBox {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 35px;
+}
+
+@media screen and (max-width: 1020px) {
+    #FlexBoxItem39 {
+        width: 100% !important;
+    }
+}
+
+.d-flex {
+    flex-wrap: wrap;
+}
+
+.flexBox_bgColor {
+    background-color: #049cc3 !important;
+}
+
+#pageHome {
+    background-color: #049cc3;
+}
+
+#NavBarIntroduction {
+    margin-top: 3.5rem;
+}
+
+.image .card-img-top {
+    width: 115px !important;
+    align-self: center;
+}
+
+#NavBarLogin,
+#NavBarSignIn {
+    height: 100% !important;
+}
+
+#NavBarLogin___container,
+#NavBarSignIn___container {
+    height: 100% !important;
+}
+
+
+#NavBarLogin___collapse,
+#NavBarSignIn___collapse {
+    height: 100% !important;
+}
+
+#ButtonMainLogin,
+#ButtonRegister,
+.buttonContinue,
+#FlexBoxItemWelcomeUser {
+    background-color: #049cc3 !important;
+}
+
+.textWidth {
+    width: 100%;
+}
+
+#FlexBoxForgetPassword,
+#FlexBoxAccountAlready,
+#FlexBoxNeedHelp,
+#FlexBoxNeedHelp1,
+#FlexBoxAgeDOB,
+#FlexBoxAddBeneficiaryNote {
+    height: fit-content !important;
+}
+
+#InputUsername,
+#InputPassword,
+#InputUsername1,
+#InputPassword1,
+#InputPassword2 {
+    color: black !important;
+}
+
+#FlexBoxItemLoginImage,
+#LoginContainer,
+#FlexBoxItemSignInImage,
+#SignInContainer {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#InputPassword___input,
+#InputPassword1___input,
+#InputPassword2___input,
+#InputEnterMobNo___input {
+    margin-right: 15px !important;
+}
+
+//=============================================Yasmins Code=============================
+#TextLoginUsernameLabel {
+    position: absolute;
+    top: 125px !important;
+}
+
+#TextLoginPasswordLabel {
+    position: absolute;
+    top: 228px !important;
+}
+
+#InputPassword {
+    margin-top: 35px;
+}
+
+#CheckRememberMeLogin {
+    margin-top: 30px;
+}
+
+#TextUserAlreadyExist {
+    width: 100%;
+    display: flex;
+}
+
+#ButtonLoggedInUser .nbsButton-icon+.nbsButton-text {
+    margin-left: 0.5rem;
+}
+
+
+#DropdownItem .dropdown-item {
+    color: #049cc3 !important;
+    font-size: 1.2rem;
+}
+
+.dropdown-menu[data-bs-popper] {
+    right: 0px !important;
+    border-radius: 0px !important;
+    color: #049cc3 !important;
+}
+
+#TextKeyBenefits {
+    color: #049cc3 !important;
+}
+
+#progressBar {
+    background-color: black;
+    // --bs-progress-bar-bg: rgb(4, 156, 195) !important;
+        --bs-progressBarCredit-bg: rgb(4, 156, 195) !important;
+
+}
+
+#ButtonPayCredit {
+    border-color: #049cc3 !important;
+    color: #049cc3 !important;
+}
+
+.ButtonBalance .nbsButton-icon {
+    color: #049cc3 !important;
+}
+
+.ButtonAvailable .nbsButton-icon {
+    color: black !important;
+}
+
+#Modal .modal-header {
+    background-color: #049cc3 !important;
+}
+
+#ListOfCreditCards {
+    flex-direction: row !important;
+}
+
+.navItemBlue .nbsNavItem-text {
+    color: #049cc3 !important;
+}
+
+.navItemWhite .nbsNavItem-text {
+    color: black !important;
+}
+
+#ListCreditCards {
+    width: 100% !important;
+}
+
+#NavBarCreditCard .container {
+    display: block !important;
+}
+
+// ========================Artis Code====================================
+
+#offcanvas {
+    top: 70px;
+    width: 70%;
+    height: fit-content;
+}
+
+.MenuItems {
+    border: none;
+    background: transparent;
+    color: black;
+    font-size: large;
+}
+
+#Button14___icon,
+#Button9___icon,
+#Button10___icon,
+#Button11___icon,
+#Button12___icon,
+#Button15___icon {
+    position: absolute;
+    right: 35px;
+    color: #049cc3;
+
+}
+
+#SearchField-I {
+    position: absolute;
+    left: 35px;
+}
+
+#SearchField-search {
+    position: absolute;
+    left: 0px;
+}
+
+#SearchField-reset {
+    position: absolute;
+    right: 0px
+}
+
+
+.arrow {
+    .nbsListGroupItem-icon {
+        font-family: 'SAP-icons';
+        position: absolute;
+        right: 20px;
+        color: #049cc3;
+    }
+
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.searchListPaddingSpace {
+    .list-group-item {
+        position: relative;
+        display: block;
+        padding: -30px;
+        color: var(--bs-list-group-color);
+        text-decoration: none;
+        background-color: var(--bs-list-group-bg);
+        border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+    }
+
+}
+
+.carouselButtonNavigation {
+    background-color: #049cc3;
+    ;
+}
+
+.carouselButtonNavigationDefault {
+    background-color: #6c757d;
+}
+
+
+#ButtonDropDownTotalIncome,
+#ButtonDropDownTotalSpent {
+    color: black;
+}
+
+.ChangeDropDownColor {
+
+    #ButtonDropDownTotalIncome___text,
+    ::after {
+        color: black !important;
+    }
+
+
+    #ButtonDropDownTotalSpent___text,
+    ::after {
+        color: black !important;
+    }
+}
+
+#ButtonLoggedInUser___text,
+::after {
+    color: white !important;
+}
+
+#FlexBoxItem80 {
+    position: absolute;
+    right: 10px;
+    top: 0.5rem;
+}
+
+#ButtonPayBills,
+#ButtonMainMakeTransfer,
+#Button18,
+#ButtonViewMore {
+    border-color: #049cc3 !important;
+    color: #049cc3 !important;
+
+}
+
+#FlexBoxItem82 {
+    margin-top: 38%;
+    margin-bottom: 2%;
+}
+
+#Text45 {
+    margin-left: 0.6rem;
+
+}
+
+#Text44 {
+    margin-left: 0.6rem;
+    margin-right: 0.7rem;
+}
+
+
+
+#ButtonManageBeneficiaries {
+    border-color: #049cc3 !important;
+    background-color: #049cc3 !important;
+
+}
+
+.TextBeneficiaryAbbrevation {
+    position: absolute;
+    right: 30.5%;
+    color: white;
+    font-size: 150%;
+    padding-top: 0.4%;
+
+}
+
+#TextTitleUpdateBeneficiary {
+    margin-right: 50%;
+}
+
+#FlexBoxItemFixedISA {
+    background-color: #049cc3;
+    color: white;
+}
+
+#ButtonFixedISAApplyNow {
+    border-color: white;
+    background-color: #049cc3;
+}
+
+.RemoveBackground {
+    border: 1px solid !important;
+    border-color: #e9ecef !important;
+}
+
+#FlexBoxItemStep1Icon {
+    padding-left: 35%;
+}
+
+#FlexBoxItemStep2Icon {
+    padding-left: 40%;
+}
+
+#FlexBoxItemStep3Icon {
+    padding-left: 45%;
+}
+
+.GrayOutImage {
+    opacity: 0.2;
+}
+
+.cardImage {
+
+    .card-img,
+    .card-img-bottom,
+    .card-img-top {
+        width: 45%;
+        margin-left: 25%;
+        margin-top: 13%;
+        margin-bottom: 13%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #FlexBoxItemLoginContainer {
+        width: 100% !important;
+    }
+
+}
+
+#FlexBoxItemTransaction {
+    margin-right: 1rem !important;
+}
+
+#FlexBoxFixedISA {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+#FlexBoxUpdateBeneficiaryNote{
+    height: fit-content !important;
+}

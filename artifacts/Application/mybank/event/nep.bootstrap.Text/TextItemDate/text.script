@@ -1,0 +1,6 @@
+if (typeof transaction_date === "undefined" || transaction_date === null || transaction_date === "") { return; }  
+
+var transactiondate = moment(transaction_date).format("DD/MM/YYYY");
+ 
+var formattedText = transactiondate;
+return formattedText;

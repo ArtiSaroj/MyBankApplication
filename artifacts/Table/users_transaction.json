@@ -1,0 +1,145 @@
+{
+	"id": "a7d4ded8-62ca-4fbf-8046-478ea20a0f05",
+	"createdAt": "2024-08-27T08:54:42.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "d1eaf507-ffdc-4b0a-88ab-329e42d7c97a",
+			"fieldName": "email_id",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Email ID of the user",
+			"isNullable": false
+		},
+		{
+			"id": "ba875aa0-75df-42c9-e8b2-81e7f5ebf15b",
+			"fieldName": "act_no",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "account number",
+			"isNullable": false
+		},
+		{
+			"id": "4261bc0c-29ea-4fb3-d9f9-64c7b694551b",
+			"fieldName": "act_name",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "account name",
+			"isNullable": false
+		},
+		{
+			"id": "0668c783-e4f1-4f52-a8a6-fb32adae8c86",
+			"fieldName": "amount",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "amount",
+			"precision": "2",
+			"isNullable": false
+		},
+		{
+			"id": "fdeb5637-9f46-4225-be37-d17818ee8cfe",
+			"fieldName": "transaction_date",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "transaction date",
+			"isNullable": false
+		},
+		{
+			"id": "6f2baf2f-d43a-4c2d-baa3-309400639e34",
+			"fieldName": "crdr",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "credited or debited"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [
+		{
+			"id": "ff470152-aee2-46e0-ae6c-5aae4d3759c8",
+			"name": "email_id",
+			"referencedTable": "myusers",
+			"referencedTableId": "c2557170-3f2f-43a0-b26d-7442fd27a819",
+			"referencedTableColumns": [
+				{
+					"fieldName": "name",
+					"fieldType": "text",
+					"isUnique": false,
+					"description": "Name of the user",
+					"isNullable": true
+				},
+				{
+					"fieldName": "dob",
+					"fieldType": "timestamp",
+					"isUnique": false,
+					"description": "Date of birth",
+					"isNullable": true
+				},
+				{
+					"fieldName": "age",
+					"fieldType": "integer",
+					"isUnique": false,
+					"description": "Age of the user",
+					"isNullable": true
+				},
+				{
+					"fieldName": "email_id",
+					"fieldType": "mediumtext",
+					"isUnique": true,
+					"description": "Email ID of the user",
+					"isNullable": true
+				},
+				{
+					"fieldName": "phone_no",
+					"fieldType": "integer",
+					"isUnique": false,
+					"description": "Phone number of the user",
+					"isNullable": true
+				},
+				{
+					"id": "33f7729d-adb7-4d3a-84e0-0834688a2361",
+					"fieldName": "password",
+					"fieldType": "text",
+					"isUnique": false,
+					"description": "password for login",
+					"isNullable": true
+				},
+				{
+					"id": "f8b50697-c494-45a2-e47a-5b07841216b5",
+					"fieldName": "total_balance",
+					"fieldType": "decimal",
+					"isUnique": false,
+					"description": "total balance",
+					"precision": "2",
+					"isNullable": true
+				},
+				{
+					"id": "7b6fe8b3-d1f7-49f4-94e7-ac81730b1a82",
+					"fieldName": "act_no",
+					"fieldType": "integer",
+					"isUnique": true,
+					"description": "account no"
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "",
+					"id": "d1eaf507-ffdc-4b0a-88ab-329e42d7c97a",
+					"fieldName": "email_id",
+					"fieldType": "mediumtext",
+					"isUnique": false,
+					"description": "Email ID of the user",
+					"isNullable": false,
+					"referencedColumnName": "email_id"
+				}
+			]
+		}
+	],
+	"name": "users_transaction",
+	"description": null,
+	"ver": "24.09.04.1415",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "b70dc11a-0134-4312-9031-4b24acdaf4d2",
+	"rolesRead": [],
+	"rolesWrite": []
+}

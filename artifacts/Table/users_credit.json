@@ -1,0 +1,130 @@
+{
+	"id": "2efa661a-8cb5-4dfe-b420-1416e8493322",
+	"createdAt": "2024-09-03T18:48:59.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "c32cee38-5164-43ee-a909-c19ae5c38200",
+			"fieldName": "email_id",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Email ID of the user"
+		},
+		{
+			"id": "520d6248-1d1e-4db4-c786-7443eb57aa5c",
+			"fieldName": "card_no",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Credit card number"
+		},
+		{
+			"id": "22147f4e-eb33-4ddf-8da3-ac7f34d6d7ab",
+			"fieldName": "card_name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "0b83636e-5fe6-4fd7-a4bd-f57594232096",
+			"fieldName": "limit",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Limit of credit card"
+		},
+		{
+			"id": "ce5b11f8-1400-4f7a-feca-1ac6684979c4",
+			"fieldName": "spent",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Spent from credit card"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [
+		{
+			"id": "026290f0-93c2-406b-f5d6-1d54a5816027",
+			"name": "email_id",
+			"referencedTable": "myusers",
+			"referencedTableId": "c2557170-3f2f-43a0-b26d-7442fd27a819",
+			"referencedTableColumns": [
+				{
+					"fieldName": "name",
+					"fieldType": "text",
+					"isUnique": false,
+					"description": "Name of the user",
+					"isNullable": true
+				},
+				{
+					"fieldName": "dob",
+					"fieldType": "timestamp",
+					"isUnique": false,
+					"description": "Date of birth",
+					"isNullable": true
+				},
+				{
+					"fieldName": "age",
+					"fieldType": "integer",
+					"isUnique": false,
+					"description": "Age of the user",
+					"isNullable": true
+				},
+				{
+					"fieldName": "email_id",
+					"fieldType": "mediumtext",
+					"isUnique": true,
+					"description": "Email ID of the user",
+					"isNullable": true
+				},
+				{
+					"fieldName": "phone_no",
+					"fieldType": "integer",
+					"isUnique": false,
+					"description": "Phone number of the user",
+					"isNullable": true
+				},
+				{
+					"id": "33f7729d-adb7-4d3a-84e0-0834688a2361",
+					"fieldName": "password",
+					"fieldType": "text",
+					"isUnique": false,
+					"description": "password for login",
+					"isNullable": true
+				},
+				{
+					"id": "f8b50697-c494-45a2-e47a-5b07841216b5",
+					"fieldName": "total_balance",
+					"fieldType": "decimal",
+					"isUnique": false,
+					"description": "total balance",
+					"precision": "2",
+					"isNullable": true
+				},
+				{
+					"id": "7b6fe8b3-d1f7-49f4-94e7-ac81730b1a82",
+					"fieldName": "act_no",
+					"fieldType": "integer",
+					"isUnique": false,
+					"description": "account no"
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "",
+					"id": "c32cee38-5164-43ee-a909-c19ae5c38200",
+					"fieldName": "email_id",
+					"fieldType": "mediumtext",
+					"isUnique": false,
+					"description": "Email ID of the user",
+					"referencedColumnName": "email_id"
+				}
+			]
+		}
+	],
+	"name": "users_credit",
+	"description": null,
+	"ver": "24.09.04.1617",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "b70dc11a-0134-4312-9031-4b24acdaf4d2",
+	"rolesRead": [],
+	"rolesWrite": []
+}

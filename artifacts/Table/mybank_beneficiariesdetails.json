@@ -1,0 +1,65 @@
+{
+	"id": "dcabd36f-c2de-4173-bf58-ba394c47bf0a",
+	"createdAt": "2024-08-27T12:52:11.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "bd9beda1-206c-417e-8bde-8f2b831d5766",
+			"fieldName": "beneficiaries_email_id",
+			"fieldType": "integer",
+			"isUnique": true
+		},
+		{
+			"id": "d8331552-322e-412f-accf-5e9cf7229b8a",
+			"fieldName": "beneficiaries_name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "10f0feb7-1d02-4bd0-8c62-72fb2920a22f",
+			"fieldName": "beneficiaries_phone_no",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "45ba8611-086e-4414-d651-7ea99c8f1d13",
+			"fieldName": "beneficiaries_acc_no",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "d6bdd221-f5d0-45df-b7f0-24fde77fddfc",
+			"fieldName": "beneficiaries_name_abbreviation",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "e0c18a15-7c32-49c5-fe58-efb2a5e79fba",
+			"fieldName": "beneficiaries_account_type",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "e16ba136-ee35-404c-e29d-ecd7e756b268",
+			"fieldName": "beneficiaries_IFSC_Code",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "5acfded6-3df0-4e1c-d247-526a7d003b6c",
+			"fieldName": "email_id",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "mybank_beneficiariesdetails",
+	"description": null,
+	"ver": "24.08.29.0132",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "b70dc11a-0134-4312-9031-4b24acdaf4d2",
+	"rolesRead": [],
+	"rolesWrite": []
+}

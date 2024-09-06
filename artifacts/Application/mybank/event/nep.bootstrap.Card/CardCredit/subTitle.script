@@ -1,0 +1,9 @@
+if (typeof card_no === "undefined" || card_no === null || card_no === "") { return; }  
+// var formattedText = card_no; 
+// return formattedText;
+var sentence = card_no;
+var formattedText = sentence.replace(sentence.substring(0, 8), "********");
+ 
+ 
+return formattedText;
+ 

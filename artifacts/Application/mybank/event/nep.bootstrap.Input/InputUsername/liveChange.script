@@ -1,0 +1,10 @@
+
+// const user = modelusersArray.getData().find(user => user.email_id == InputUsername.getValue());
+// console.log("user", user);
+// if (user) {
+//     console.log(user)
+//     // ButtonSubmit.addStyleClass("buttonSubmit");
+// } else {
+//     console.log(user)
+//     // ButtonSubmit.removeStyleClass("buttonSubmit");
+// }

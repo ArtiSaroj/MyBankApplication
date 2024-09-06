@@ -1,0 +1,7 @@
+InputBeneficiaryName1.setEnabled(true);
+InputBeneficiaryAccNo1.setEnabled(true);
+InputBeneficiaryReAccNo1.setEnabled(true);
+InputIFSCCode1.setEnabled(true);
+InputEmailId1.setEnabled(true);
+InputPhoneNo1.setEnabled(true);
+

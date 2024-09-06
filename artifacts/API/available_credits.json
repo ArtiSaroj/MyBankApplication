@@ -1,0 +1,184 @@
+{
+	"id": "b38806f2-476d-488a-ae99-62394a2e2b66",
+	"createdAt": "2024-09-02T07:56:47.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "1d7c216a-6b7d-40f6-8b14-6a1347f82e1b",
+			"path": "/available_credits",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "available_credits"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "e63be0d6-935f-4b90-a7f4-b28145e376a2",
+			"name": "available_credits",
+			"properties": [
+				{
+					"id": "e2e50a89-552f-4f5d-b175-3c9c02f33cd0",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "d47b4e22-3706-48e6-8f1a-ec3c3f3d7a2f",
+					"parent": "",
+					"name": "card_name",
+					"description": "Credit card name",
+					"objectType": "string"
+				},
+				{
+					"id": "fcd2378d-944b-41de-901f-3ba16e214a22",
+					"parent": "",
+					"name": "card_image",
+					"description": "Credit card image",
+					"objectType": "string"
+				},
+				{
+					"id": "8d820118-5562-4611-8936-8a191c2babb7",
+					"parent": "",
+					"name": "card_limit",
+					"description": "Credit card limit",
+					"objectType": "number"
+				},
+				{
+					"id": "0ba787bc-4c10-43a9-a84c-990a247e1c49",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "5c37a44d-a5c3-4594-988d-125a7e6ee56a",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "8ca19278-1565-4c99-ab7b-2c4b43269f79",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "75bdac85-2930-4c39-8c5d-b0ae0fe4bf10",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "d14bbf63-b721-4f8f-94ef-0f34de902861",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "ed149e7f-65ad-41c0-83ab-2a65ce133235",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "1bb36b43-72e5-4c02-aa69-22283ae11dc8",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "64033375-cfad-4bc4-8556-6c19a0ed99f3",
+			"name": "count",
+			"properties": [
+				{
+					"id": "4e94cd2c-d715-4543-bce3-73fb89fdc17f",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "available_credits",
+	"endpoint": "/api/entity",
+	"ver": "24.09.04.0024",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "b70dc11a-0134-4312-9031-4b24acdaf4d2",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

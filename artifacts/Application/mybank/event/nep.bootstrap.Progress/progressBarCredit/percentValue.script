@@ -1,0 +1,9 @@
+if (typeof spent === "undefined" || spent === null || spent === "") { return; }  
+
+var total = modelcreditCardArray.getData().limit;
+var spent = modelcreditCardArray.getData().spent;
+
+var per = spent / total * 100;
+
+var formattedText = per; 
+return formattedText;

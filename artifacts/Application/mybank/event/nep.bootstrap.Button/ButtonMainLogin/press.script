@@ -1,0 +1,45 @@
+user = modelusersArray.getData().find((user) => user.email_id == InputUsername.getValue());
+
+if (user.email_id == InputUsername.getValue() && user.password == InputPassword.getValue()) {
+    var options = {
+        parameters: {
+            where: JSON.stringify({ email_id: user.email_id }), // Optional
+            // "where": JSON.stringify({"email_id": "yasmin@gmail.com"})
+        },
+    };
+
+    apigetCreditCardDetails(options);
+    console.log("Get All credit card details", modelcreditCardArray.getData());
+
+    apigetAllCreditCards();
+
+    // NavItemPersonal.setVisible(true);
+    // NavItemBusiness.setVisible(true);
+    // NavItemCorporate.setVisible(true);
+    NavItemHome.setVisible(true);
+    NavItemDashboard.setVisible(true);
+    NavItemBeneficiaries.setVisible(true);
+    NavItemCredit.setVisible(true);
+    ButtonLogin.setVisible(false);
+    ButtonLoggedInUser.setText(user.name);
+    ButtonLoggedInUser.setVisible(true);
+    App.to(pageHome);
+    InputUsername.setValidity("None");
+    InputPassword.setValidity("None");
+    TextLoginUsernameLabel.setVisible(false);
+    TextLoginPasswordLabel.setVisible(false);
+} else {
+    InputUsername.setValidity("Invalid");
+    InputPassword.setValidity("Invalid");
+    TextLoginUsernameLabel.setVisible(true);
+    TextLoginPasswordLabel.setVisible(true);
+}
+
+
+var text = user.name
+    var capitalizedText = text.charAt(0).toUpperCase() + text.slice(1);
+ 
+    console.log(capitalizedText);
+ 
+    ButtonLoggedInUser.setText(capitalizedText);
+    TextHello.setText("Hello "+ capitalizedText)

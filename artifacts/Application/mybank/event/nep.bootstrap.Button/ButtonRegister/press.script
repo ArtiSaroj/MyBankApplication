@@ -1,0 +1,13 @@
+// Validation
+debugger
+const user = modelusersArray.getData().find(user => user.email_id == InputUsername1.getValue());
+if(user){
+    TextUserAlreadyExist.setVisible(true);
+    InputUsername1.setValidity("Invalid")
+}else{
+    TextUserAlreadyExist.setVisible(false);
+    InputUsername1.setValidity("Valid")
+    register();
+}
+
+

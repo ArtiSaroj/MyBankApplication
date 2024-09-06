@@ -1,0 +1,3 @@
+if (typeof Title === "undefined" || Title === null || Title === "") { return; }  
+var formattedText = Title; 
+return formattedText;

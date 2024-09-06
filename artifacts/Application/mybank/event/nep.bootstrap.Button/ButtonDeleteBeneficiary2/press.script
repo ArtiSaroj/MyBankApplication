@@ -1,0 +1,7 @@
+var id = InputId.getValue();
+var options = {
+    parameters: {
+        "where":  JSON.stringify({"id" : id})
+          
+}};
+apiRestAPIDeleteBeneficiariesDetails(options);
