@@ -56,7 +56,7 @@
 	"foreignKeys": [
 		{
 			"id": "ff470152-aee2-46e0-ae6c-5aae4d3759c8",
-			"name": "email_id",
+			"name": "transaction_email_id",
 			"referencedTable": "myusers",
 			"referencedTableId": "c2557170-3f2f-43a0-b26d-7442fd27a819",
 			"referencedTableColumns": [
@@ -136,7 +136,7 @@
 	],
 	"name": "users_transaction",
 	"description": null,
-	"ver": "24.09.04.1415",
+	"ver": "24.09.06.1744",
 	"enableAudit": false,
 	"includeDataInPackage": false,
 	"package": "b70dc11a-0134-4312-9031-4b24acdaf4d2",
