@@ -1,0 +1,76 @@
+{
+	"id": "c2557170-3f2f-43a0-b26d-7442fd27a819",
+	"createdAt": "2024-08-27T08:55:49.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"fieldName": "name",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Name of the user",
+			"isNullable": true
+		},
+		{
+			"fieldName": "dob",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Date of birth",
+			"isNullable": true
+		},
+		{
+			"fieldName": "age",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Age of the user",
+			"isNullable": true
+		},
+		{
+			"fieldName": "email_id",
+			"fieldType": "mediumtext",
+			"isUnique": true,
+			"description": "Email ID of the user",
+			"isNullable": true
+		},
+		{
+			"fieldName": "phone_no",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Phone number of the user",
+			"isNullable": true
+		},
+		{
+			"id": "33f7729d-adb7-4d3a-84e0-0834688a2361",
+			"fieldName": "password",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "password for login",
+			"isNullable": true
+		},
+		{
+			"id": "f8b50697-c494-45a2-e47a-5b07841216b5",
+			"fieldName": "total_balance",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "total balance",
+			"precision": "2",
+			"isNullable": true
+		},
+		{
+			"id": "7b6fe8b3-d1f7-49f4-94e7-ac81730b1a82",
+			"fieldName": "act_no",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "account no"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "myusers",
+	"description": "User table",
+	"ver": "24.09.06.1417",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "b70dc11a-0134-4312-9031-4b24acdaf4d2",
+	"rolesRead": [],
+	"rolesWrite": []
+}

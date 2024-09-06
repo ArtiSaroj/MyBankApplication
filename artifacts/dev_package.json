@@ -7,7 +7,7 @@
 	},
 	"name": "mybank",
 	"description": null,
-	"ver": "24.09.06.1257",
+	"ver": "24.09.06.1320",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -65,6 +65,11 @@
 			"id": "dcabd36f-c2de-4173-bf58-ba394c47bf0a",
 			"name": "mybank_beneficiariesdetails",
 			"description": null
+		},
+		{
+			"id": "c2557170-3f2f-43a0-b26d-7442fd27a819",
+			"name": "myusers",
+			"description": "User table"
 		},
 		{
 			"id": "a7d4ded8-62ca-4fbf-8046-478ea20a0f05",
